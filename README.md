@@ -1,32 +1,22 @@
-project-root/
-├── auth-module/
-│   ├── src/
-│   │   └── auth.py
-│   ├── templates/
-│   │   ├── register.html
-│   │   └── login.html
-│   └── README.md
-├── tasks-module/
-│   ├── src/
-│   │   └── tasks.py
-│   ├── templates/
-│   │   ├── create_task.html
-│   │   ├── edit_task.html
-│   │   └── task_list.html
-│   └── README.md
-├── reports-module/
-│   ├── src/
-│   │   └── reports.py
-│   ├── templates/
-│   │   ├── report.html
-│   │   └── export_data.html
-│   └── README.md
-├── docs/
-│   ├── architecture.pdf
-│   ├── user_guide.pdf
-│   └── requirements.txt
-├── tests/
-│   ├── test_auth.py
-│   ├── test_tasks.py
-│   └── test_reports.py
-└── .gitignore
+ПРАКТИЧЕСКАЯ РАБОТА 5
+
+Тема: «Разработка и интеграция
+модулей программного проекта»
+
+1. Техническое задание
+1.1 Предметная область: "Система управления задачами"
+
+1.2 Состав модулей:
+
+1.2.1 Модуль аутентификации
+•	Регистрация пользователя
+•	Авторизация (login/logout)
+1.2.2 Модуль управления задачами
+•	CRUD-операции для задач
+(самостоятельно ознакомиться с понятием CRUD) 
+•	Фильтрация и поиск задач
+•	Изменение статуса задач
+1.2.3 Модуль отчетности
+•	Генерация отчетов по задачам
+•	Статистика выполнения
+•	Экспорт данных
